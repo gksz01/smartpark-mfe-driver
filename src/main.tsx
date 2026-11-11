@@ -1,0 +1,2 @@
+import React from 'react';import {createRoot} from 'react-dom/client';import './style.css';
+createRoot(document.getElementById('root')!).render(<main className="standalone"><div className="brand">P<span>SmartPark</span></div><h1>Microfrontend publicado</h1><p>Esta aplicação é carregada pelo portal SmartPark. Acesse o portal para entrar na sua conta.</p><a className="button" href={import.meta.env.VITE_SHELL_URL||'http://localhost:4173'}>Abrir SmartPark</a></main>);
